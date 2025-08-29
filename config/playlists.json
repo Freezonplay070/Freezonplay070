@@ -1,0 +1,60 @@
+{
+  "site": {
+    "name": "RadioFree",
+    "brandColor": "#0ecb68",
+    "accentColor": "#ff7a17",
+    "theme": "dark"
+  },
+  "playlists": [
+    {
+      "id": "phonk",
+      "title": "Phonk",
+      "type": "files",
+      "color": "#0ecb68",
+      "cover": "assets/covers/phonk.jpg",
+      "tracks": [
+        {
+          "title": "Phonk Sample \u2022 Tone",
+          "artist": "Demo",
+          "src": "assets/sample/phonk1.wav"
+        }
+      ]
+    },
+    {
+      "id": "classical",
+      "title": "Classical",
+      "type": "files",
+      "color": "#6796ff",
+      "cover": "assets/covers/classic.jpg",
+      "tracks": [
+        {
+          "title": "Classical Sample \u2022 Tone",
+          "artist": "Demo",
+          "src": "assets/sample/classic1.wav"
+        }
+      ]
+    },
+    {
+      "id": "drive",
+      "title": "Drive",
+      "type": "files",
+      "color": "#ff7a17",
+      "cover": "assets/covers/drive.jpg",
+      "tracks": [
+        {
+          "title": "Drive Sample \u2022 Tone",
+          "artist": "Demo",
+          "src": "assets/sample/drive1.wav"
+        }
+      ]
+    },
+    {
+      "id": "live",
+      "title": "Live Stream (Shoutcast/Icecast)",
+      "type": "stream",
+      "color": "#64d8ff",
+      "cover": "assets/covers/live.jpg",
+      "streamUrl": "https://your-radio-host.example.com/stream"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RadioFree — безкоштовний сайт-радіо</title>
+  <meta name="description" content="Безкоштовний сайт-радіо на статичному хостингу. Плейлисти, стрім, вход через Firebase (необов'язково).">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/logo.svg" as="image" type="image/svg+xml">
+  <script>window.firebaseConfigPath='config/firebase.json';</script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <a class="brand" href="./">
+        <img src="assets/logo.svg" alt="RadioFree logo">
+        <span class="name">RadioFree</span>
+      </a>
+      <div class="spacer"></div>
+      <button id="loginBtn" class="auth-btn">Увійти / Зареєструватись</button>
+      <div id="userBox" class="hidden">
+        <span id="userEmail"></span>
+        <button id="logoutBtn" class="logout-btn">Вийти</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Плейлисти</h2>
+    <div id="list" class="playlists"></div>
+  </main>
+
+  <footer class="footer-player">
+    <div class="player-inner container">
+      <div class="now">
+        <div class="t" id="nowTitle">Нічого не грає</div>
+        <div class="s"><span id="nowPlaylist">—</span></div>
+      </div>
+      <button class="icon-btn" id="prevBtn" title="Попередній">⏮</button>
+      <button class="icon-btn" id="playBtn" title="Відтворити/Пауза">▶️</button>
+      <button class="icon-btn" id="nextBtn" title="Наступний">⏭</button>
+      <button class="icon-btn" id="shuffleBtn" title="Перемішати">🔀</button>
+      <input id="seek" class="range" type="range" min="0" max="100" value="0">
+      <input id="vol" class="range" type="range" min="0" max="1" step="0.01" value="0.8" title="Гучність">
+    </div>
+  </footer>
+
+  <!-- Auth modal -->
+  <div id="authModal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <h3>Вхід або реєстрація</h3>
+      <input id="authEmail" class="input" type="email" placeholder="Email">
+      <input id="authPass" class="input" type="password" placeholder="Пароль (мінімум 6 символів)">
+      <div class="row">
+        <button class="btn primary" id="doLogin">Увійти</button>
+        <button class="btn" id="doSignup">Зареєструватись</button>
+      </div>
+      <small class="note">
+        Реєстрація працює, якщо заповнено <code>config/firebase.json</code> і в консолі Firebase увімкнено Email/Password.
+      </small>
+      <div class="row">
+        <button class="btn" id="closeAuth">Закрити</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="player" preload="metadata" crossorigin="anonymous"></audio>
+  <script src="app.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
