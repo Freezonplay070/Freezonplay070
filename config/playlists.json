@@ -1,60 +1,186 @@
 {
   "site": {
-    "name": "RadioFree",
-    "brandColor": "#0ecb68",
-    "accentColor": "#ff7a17",
+    "name": "solevoyqRadio",
+    "brandColor": "#00e676",
+    "accentColor": "#ff9100",
     "theme": "dark"
   },
   "playlists": [
     {
       "id": "phonk",
       "title": "Phonk",
-      "type": "files",
-      "color": "#0ecb68",
-      "cover": "assets/covers/phonk.jpg",
+      "color": "#8e24aa",
+      "cover": "assets/covers/phonk.svg",
       "tracks": [
         {
-          "title": "Phonk Sample \u2022 Tone",
+          "id": "phonk-1",
+          "title": "Night Drift",
           "artist": "Demo",
-          "src": "assets/sample/phonk1.wav"
+          "src": "assets/sample/t1.wav",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-2",
+          "title": "Neon Smoke",
+          "artist": "Demo",
+          "src": "assets/sample/t2.wav",
+          "cover": "assets/covers/phonk.svg"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "title": "Speed Up",
+      "color": "#ff4081",
+      "cover": "assets/covers/speed.svg",
+      "tracks": [
+        {
+          "id": "speed-1",
+          "title": "Fast Lane",
+          "artist": "Demo",
+          "src": "assets/sample/t3.wav",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-2",
+          "title": "Turbo Pop",
+          "artist": "Demo",
+          "src": "assets/sample/t4.wav",
+          "cover": "assets/covers/speed.svg"
+        }
+      ]
+    },
+    {
+      "id": "trapmetal",
+      "title": "Trap Metal",
+      "color": "#ff1744",
+      "cover": "assets/covers/trapmetal.svg",
+      "tracks": [
+        {
+          "id": "trap-1",
+          "title": "Rage Mode",
+          "artist": "Demo",
+          "src": "assets/sample/t5.wav",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trap-2",
+          "title": "Dark Pit",
+          "artist": "Demo",
+          "src": "assets/sample/t6.wav",
+          "cover": "assets/covers/trapmetal.svg"
         }
       ]
     },
     {
       "id": "classical",
       "title": "Classical",
-      "type": "files",
-      "color": "#6796ff",
-      "cover": "assets/covers/classic.jpg",
+      "color": "#ffc107",
+      "cover": "assets/covers/classical.svg",
       "tracks": [
         {
-          "title": "Classical Sample \u2022 Tone",
+          "id": "class-1",
+          "title": "Allegro",
           "artist": "Demo",
-          "src": "assets/sample/classic1.wav"
+          "src": "assets/sample/t7.wav",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "class-2",
+          "title": "Serenade",
+          "artist": "Demo",
+          "src": "assets/sample/t8.wav",
+          "cover": "assets/covers/classical.svg"
         }
       ]
     },
     {
-      "id": "drive",
-      "title": "Drive",
-      "type": "files",
-      "color": "#ff7a17",
-      "cover": "assets/covers/drive.jpg",
+      "id": "trending",
+      "title": "Trending",
+      "color": "#00e5ff",
+      "cover": "assets/covers/trending.svg",
       "tracks": [
         {
-          "title": "Drive Sample \u2022 Tone",
+          "id": "trend-1",
+          "title": "Top Wave",
           "artist": "Demo",
-          "src": "assets/sample/drive1.wav"
+          "src": "assets/sample/t9.wav",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trend-2",
+          "title": "Viral Beat",
+          "artist": "Demo",
+          "src": "assets/sample/t10.wav",
+          "cover": "assets/covers/trending.svg"
         }
       ]
     },
     {
-      "id": "live",
-      "title": "Live Stream (Shoutcast/Icecast)",
-      "type": "stream",
-      "color": "#64d8ff",
-      "cover": "assets/covers/live.jpg",
-      "streamUrl": "https://your-radio-host.example.com/stream"
+      "id": "hardstyle",
+      "title": "Hardstyle",
+      "color": "#ff3d00",
+      "cover": "assets/covers/hardstyle.svg",
+      "tracks": [
+        {
+          "id": "hard-1",
+          "title": "Kickstorm",
+          "artist": "Demo",
+          "src": "assets/sample/t11.wav",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hard-2",
+          "title": "Bassquake",
+          "artist": "Demo",
+          "src": "assets/sample/t12.wav",
+          "cover": "assets/covers/hardstyle.svg"
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "title": "Anime Openings",
+      "color": "#7c4dff",
+      "cover": "assets/covers/anime.svg",
+      "tracks": [
+        {
+          "id": "ani-1",
+          "title": "Shonen Fire",
+          "artist": "Demo",
+          "src": "assets/sample/t13.wav",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "ani-2",
+          "title": "Neon Sakura",
+          "artist": "Demo",
+          "src": "assets/sample/t14.wav",
+          "cover": "assets/covers/anime.svg"
+        }
+      ]
+    },
+    {
+      "id": "nordic",
+      "title": "Nordic Folk",
+      "color": "#4caf50",
+      "cover": "assets/covers/nordic.svg",
+      "tracks": [
+        {
+          "id": "nor-1",
+          "title": "Runesong",
+          "artist": "Demo",
+          "src": "assets/sample/t15.wav",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nor-2",
+          "title": "Skald's Tale",
+          "artist": "Demo",
+          "src": "assets/sample/t16.wav",
+          "cover": "assets/covers/nordic.svg"
+        }
+      ]
     }
   ]
 }

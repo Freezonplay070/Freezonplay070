@@ -1,163 +1,192 @@
-/* RadioFree — простий фронтенд-плеєр з плейлистами та (опційно) лайв-стрімом */
+// solevoyqRadio v3 — categories on homepage + global player
 const $ = s => document.querySelector(s);
-const listEl = $("#list");
-const player = $("#player");
-const nowTitle = $("#nowTitle");
-const nowPlaylist = $("#nowPlaylist");
-const playBtn = $("#playBtn");
-const prevBtn = $("#prevBtn");
-const nextBtn = $("#nextBtn");
-const shuffleBtn = $("#shuffleBtn");
+const sectionsEl = $("#sections");
+const searchEl = $("#search");
+const audio = $("#audio");
+const btnPrev = $("#btnPrev");
+const btnPlay = $("#btnPlay");
+const btnNext = $("#btnNext");
+const btnRepeat = $("#btnRepeat");
+const btnShuffle = $("#btnShuffle");
+const btnLike = $("#btnLike");
 const seek = $("#seek");
+const tCur = $("#tCur");
+const tAll = $("#tAll");
 const vol = $("#vol");
+const pTitle = $("#pTitle");
+const pArtist = $("#pArtist");
+const pCover = $("#pCover");
+const bars = $("#bars");
 
-let CONFIG = null;
-let currentPlaylist = null;
-let currentIndex = 0;
-let shuffled = false;
-let order = [];
-let seekDragging = false;
+let CFG = null;
+let current = { playlistId: null, index: -1, order: [], repeat: 'off', shuffle: false };
+let likes = new Set(JSON.parse(localStorage.getItem('likes') || '[]'));
 
-async function loadConfig(){
+async function boot(){
   const res = await fetch('config/playlists.json?ts=' + Date.now());
-  CONFIG = await res.json();
-  if (CONFIG?.site?.name) {
-    document.title = CONFIG.site.name + " — безкоштовний сайт-радіо";
-    document.querySelector('.brand .name').textContent = CONFIG.site.name;
-    document.documentElement.style.setProperty('--brand', CONFIG.site.brandColor || '#0ecb68');
-    document.documentElement.style.setProperty('--accent', CONFIG.site.accentColor || '#ff7a17');
-  }
-  renderPlaylists(CONFIG.playlists || []);
+  CFG = await res.json();
+  document.title = CFG.site?.name || 'solevoyqRadio';
+  renderSections(CFG.playlists || []);
+  vol.value = 0.8; audio.volume = 0.8;
 }
-
-function renderPlaylists(arr){
-  listEl.innerHTML = '';
-  arr.forEach(p => {
-    const card = document.createElement('div');
-    card.className = 'card';
-    const cover = document.createElement('div');
-    cover.className = 'cover';
-    cover.style.background = p.color || '#0ecb68';
-    if (p.cover) {
-      const img = document.createElement('img');
-      img.src = p.cover;
-      img.alt = p.title;
-      img.className = 'cover';
-      img.onerror = () => { img.remove(); };
-      card.appendChild(img);
-    } else {
-      card.appendChild(cover);
-    }
+function renderSections(pls){
+  sectionsEl.innerHTML = '';
+  pls.forEach(pl => {
+    const wrap = document.createElement('section');
+    const head = document.createElement('div');
+    head.className = 'section-header';
     const title = document.createElement('div');
-    title.className = 'card-title';
-    title.textContent = p.title;
-    const actions = document.createElement('div');
-    actions.className = 'card-actions';
-    const btnPlay = document.createElement('button');
-    btnPlay.className = 'btn primary';
-    btnPlay.textContent = '▶️ Слухати';
-    btnPlay.onclick = () => startPlaylist(p);
-    const badge = document.createElement('span');
-    badge.className = 'badge';
-    badge.style.background = p.color || 'var(--brand)';
-    badge.textContent = p.type === 'stream' ? 'LIVE' : 'PLAYLIST';
-    actions.appendChild(btnPlay);
-    actions.appendChild(badge);
-    card.appendChild(title);
-    card.appendChild(actions);
-    listEl.appendChild(card);
+    title.className = 'section-title';
+    title.textContent = pl.title;
+    const playAll = document.createElement('button');
+    playAll.className = 'playall';
+    playAll.textContent = 'Play All';
+    playAll.onclick = () => startPlaylist(pl.id, 0);
+    head.appendChild(title); head.appendChild(playAll);
+    wrap.appendChild(head);
+    const grid = document.createElement('div');
+    grid.className = 'tracks';
+    (pl.tracks || []).forEach((tr, i) => {
+      const card = document.createElement('div');
+      card.className = 'track'; card.dataset.pid = pl.id; card.dataset.idx = i;
+      const cover = document.createElement('div'); cover.className = 'cover';
+      const img = document.createElement('img'); img.src = tr.cover || pl.cover; img.alt = tr.title;
+      img.style.width='100%'; img.style.height='100%'; img.style.objectFit='cover';
+      cover.appendChild(img);
+      const meta = document.createElement('div'); meta.className = 'meta';
+      const t1 = document.createElement('div'); t1.className = 't1'; t1.textContent = tr.title;
+      const t2 = document.createElement('div'); t2.className = 't2'; t2.textContent = tr.artist;
+      meta.appendChild(t1); meta.appendChild(t2);
+      const actions = document.createElement('div'); actions.className = 'actions';
+      const playBtn = document.createElement('button'); playBtn.className = 'icon-btn'; playBtn.textContent = '▶️';
+      playBtn.onclick = (e) => { e.stopPropagation(); startPlaylist(pl.id, i); };
+      const likeBtn = document.createElement('button'); likeBtn.className = 'icon-btn'; likeBtn.textContent = '❤️';
+      likeBtn.onclick = (e) => { e.stopPropagation(); toggleLike(tr.id, likeBtn); };
+      updateLikeBtn(tr.id, likeBtn);
+      actions.appendChild(playBtn); actions.appendChild(likeBtn);
+      card.appendChild(cover); card.appendChild(meta); card.appendChild(actions);
+      card.onclick = () => startPlaylist(pl.id, i);
+      grid.appendChild(card);
+    });
+    wrap.appendChild(grid);
+    sectionsEl.appendChild(wrap);
   });
 }
-
-function startPlaylist(p){
-  currentPlaylist = p;
-  currentIndex = 0;
-  order = [...Array(getTrackCount()).keys()];
-  if (shuffled) shuffle(order);
+function startPlaylist(playlistId, index){
+  const pl = CFG.playlists.find(p => p.id === playlistId);
+  if (!pl) return;
+  current.playlistId = playlistId;
+  current.index = index;
+  current.order = [...Array(pl.tracks.length).keys()];
+  if (current.shuffle) shuffle(current.order);
   playCurrent();
+  // highlight current card
+  highlightCurrentCard();
 }
-
-function getTrackCount(){
-  if (!currentPlaylist) return 0;
-  if (currentPlaylist.type === 'stream') return 1;
-  return currentPlaylist.tracks?.length || 0;
-}
-
 function getCurrentTrack(){
-  if (!currentPlaylist) return null;
-  if (currentPlaylist.type === 'stream'){
-    return { title: currentPlaylist.title, artist: 'Live', src: currentPlaylist.streamUrl };
-  }
-  const idx = order[currentIndex] ?? 0;
-  return currentPlaylist.tracks[idx];
+  const pl = CFG.playlists.find(p => p.id === current.playlistId);
+  if (!pl) return null;
+  const idx = current.order[current.index] ?? 0;
+  return { tr: pl.tracks[idx], pl };
 }
-
 function playCurrent(){
-  const tr = getCurrentTrack();
-  if (!tr) return;
-
-  if (currentPlaylist.type === 'stream'){
-    player.src = tr.src;
-  } else {
-    player.src = tr.src;
-  }
-  nowTitle.textContent = `${tr.title}${tr.artist ? " — " + tr.artist : ""}`;
-  nowPlaylist.textContent = currentPlaylist.title;
-  player.play().catch(() => {
-    // Автовідтворення заблоковано — користувач натисне ▶️
-  });
+  const cur = getCurrentTrack();
+  if (!cur) return;
+  audio.src = cur.tr.src;
+  pTitle.textContent = cur.tr.title;
+  pArtist.textContent = cur.tr.artist + ' • ' + (cur.pl.title || '');
+  pCover.src = cur.tr.cover || cur.pl.cover;
+  bars.classList.remove('hidden');
+  audio.play().then(()=>{ btnPlay.textContent = '⏸'; }).catch(()=>{});
+  updateLikeBtn(cur.tr.id, btnLike);
+  highlightCurrentCard();
 }
-
 function next(){
-  if (!currentPlaylist) return;
-  if (currentPlaylist.type === 'stream'){ player.currentTime = 0; player.play(); return; }
-  currentIndex = (currentIndex + 1) % getTrackCount();
+  const pl = CFG.playlists.find(p => p.id === current.playlistId);
+  if (!pl) return;
+  if (current.repeat === 'one') return playCurrent();
+  current.index = (current.index + 1) % pl.tracks.length;
   playCurrent();
 }
 function prev(){
-  if (!currentPlaylist) return;
-  if (currentPlaylist.type === 'stream'){ player.currentTime = 0; player.play(); return; }
-  currentIndex = (currentIndex - 1 + getTrackCount()) % getTrackCount();
+  const pl = CFG.playlists.find(p => p.id === current.playlistId);
+  if (!pl) return;
+  if (audio.currentTime > 3){ audio.currentTime = 0; return; }
+  current.index = (current.index - 1 + pl.tracks.length) % pl.tracks.length;
   playCurrent();
 }
-function togglePlay(){
-  if (player.paused) player.play(); else player.pause();
-}
+function togglePlay(){ if (audio.paused){ audio.play(); btnPlay.textContent='⏸'; } else { audio.pause(); btnPlay.textContent='▶️'; } }
 function toggleShuffle(){
-  shuffled = !shuffled;
-  shuffleBtn.style.opacity = shuffled ? '1' : '.6';
-  if (!currentPlaylist) return;
-  order = [...Array(getTrackCount()).keys()];
-  if (shuffled) shuffle(order);
+  current.shuffle = !current.shuffle;
+  btnShuffle.classList.toggle('active', current.shuffle);
+  const pl = CFG.playlists.find(p => p.id === current.playlistId);
+  if (!pl) return;
+  const curTrackIndex = current.order[current.index];
+  current.order = [...Array(pl.tracks.length).keys()];
+  if (current.shuffle) shuffle(current.order);
+  current.index = current.order.indexOf(curTrackIndex);
 }
-function shuffle(a){
-  for (let i=a.length-1;i>0;i--){
-    const j = Math.floor(Math.random()*(i+1));
-    [a[i],a[j]] = [a[j],a[i]];
-  }
+function cycleRepeat(){
+  const states = ['off','all','one'];
+  const i = states.indexOf(current.repeat);
+  current.repeat = states[(i+1)%states.length];
+  btnRepeat.textContent = current.repeat==='one'?'🔁·1': (current.repeat==='all'?'🔁':'⟳');
+  btnRepeat.classList.toggle('active', current.repeat!=='off');
 }
+function shuffle(arr){ for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } }
+function fmt(t){ if(!isFinite(t)) return '0:00'; t = Math.max(0, Math.floor(t)); const m = Math.floor(t/60), s = String(t%60).padStart(2,'0'); return `${m}:${s}`; }
 
-player.addEventListener('ended', next);
-player.addEventListener('timeupdate', () => {
-  if (seekDragging) return;
-  if (!player.duration) return;
-  seek.value = Math.floor((player.currentTime / player.duration) * 100) || 0;
+audio.addEventListener('timeupdate', () => {
+  if (!audio.duration) return;
+  seek.value = Math.floor((audio.currentTime / audio.duration)*100);
+  tCur.textContent = fmt(audio.currentTime);
+  tAll.textContent = fmt(audio.duration);
+});
+audio.addEventListener('ended', () => {
+  if (current.repeat === 'one') { audio.currentTime = 0; audio.play(); return; }
+  next();
 });
 seek.addEventListener('input', () => {
-  seekDragging = true;
+  if (!audio.duration) return;
+  const p = Number(seek.value)/100;
+  audio.currentTime = p * audio.duration;
 });
-seek.addEventListener('change', () => {
-  if (player.duration){
-    const p = Number(seek.value)/100;
-    player.currentTime = p * player.duration;
-  }
-  seekDragging = false;
+vol.addEventListener('input', () => audio.volume = Number(vol.value));
+
+btnPrev.addEventListener('click', prev);
+btnPlay.addEventListener('click', togglePlay);
+btnNext.addEventListener('click', next);
+btnShuffle.addEventListener('click', toggleShuffle);
+btnRepeat.addEventListener('click', cycleRepeat);
+
+function toggleLike(id, el){
+  if (likes.has(id)) likes.delete(id); else likes.add(id);
+  localStorage.setItem('likes', JSON.stringify([...likes]));
+  updateLikeBtn(id, el);
+  if (btnLike) updateLikeBtn(id, btnLike);
+}
+function updateLikeBtn(id, el){
+  if (!el) return;
+  const on = likes.has(id);
+  el.classList.toggle('active', on);
+}
+function highlightCurrentCard(){
+  // clear previous
+  document.querySelectorAll('.track.curr').forEach(e => e.classList.remove('curr'));
+  const cur = getCurrentTrack();
+  if (!cur) return;
+  const sel = `.track[data-pid="${current.playlistId}"][data-idx="${current.order[current.index]}"]`;
+  const el = document.querySelector(sel);
+  if (el) el.classList.add('curr');
+}
+
+searchEl?.addEventListener('input', () => {
+  const q = searchEl.value.trim().toLowerCase();
+  document.querySelectorAll('.track').forEach(el => {
+    const title = el.querySelector('.t1')?.textContent.toLowerCase() || '';
+    const artist = el.querySelector('.t2')?.textContent.toLowerCase() || '';
+    el.style.display = (title.includes(q) || artist.includes(q)) ? '' : 'none';
+  });
 });
-vol.addEventListener('input', () => { player.volume = Number(vol.value); });
 
-playBtn.addEventListener('click', togglePlay);
-nextBtn.addEventListener('click', next);
-prevBtn.addEventListener('click', prev);
-shuffleBtn.addEventListener('click', toggleShuffle);
-
-loadConfig();
+boot();
