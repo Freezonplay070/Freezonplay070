@@ -14,16 +14,352 @@
       "tracks": [
         {
           "id": "phonk-1",
-          "title": "Night Drift",
-          "artist": "Demo",
-          "src": "assets/sample/t1.wav",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/phonk.svg"
         },
         {
           "id": "phonk-2",
-          "title": "Neon Smoke",
-          "artist": "Demo",
-          "src": "assets/sample/t2.wav",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/phonk.svg"
+        },
+        {
+          "id": "phonk-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/phonk.svg"
         }
       ]
@@ -36,16 +372,352 @@
       "tracks": [
         {
           "id": "speed-1",
-          "title": "Fast Lane",
-          "artist": "Demo",
-          "src": "assets/sample/t3.wav",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/speed.svg"
         },
         {
           "id": "speed-2",
-          "title": "Turbo Pop",
-          "artist": "Demo",
-          "src": "assets/sample/t4.wav",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/speed.svg"
+        },
+        {
+          "id": "speed-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/speed.svg"
         }
       ]
@@ -57,17 +729,353 @@
       "cover": "assets/covers/trapmetal.svg",
       "tracks": [
         {
-          "id": "trap-1",
-          "title": "Rage Mode",
-          "artist": "Demo",
-          "src": "assets/sample/t5.wav",
+          "id": "trapmetal-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/trapmetal.svg"
         },
         {
-          "id": "trap-2",
-          "title": "Dark Pit",
-          "artist": "Demo",
-          "src": "assets/sample/t6.wav",
+          "id": "trapmetal-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trapmetal.svg"
+        },
+        {
+          "id": "trapmetal-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/trapmetal.svg"
         }
       ]
@@ -79,17 +1087,353 @@
       "cover": "assets/covers/classical.svg",
       "tracks": [
         {
-          "id": "class-1",
-          "title": "Allegro",
-          "artist": "Demo",
-          "src": "assets/sample/t7.wav",
+          "id": "classical-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/classical.svg"
         },
         {
-          "id": "class-2",
-          "title": "Serenade",
-          "artist": "Demo",
-          "src": "assets/sample/t8.wav",
+          "id": "classical-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/classical.svg"
+        },
+        {
+          "id": "classical-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/classical.svg"
         }
       ]
@@ -101,17 +1445,353 @@
       "cover": "assets/covers/trending.svg",
       "tracks": [
         {
-          "id": "trend-1",
-          "title": "Top Wave",
-          "artist": "Demo",
-          "src": "assets/sample/t9.wav",
+          "id": "trending-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/trending.svg"
         },
         {
-          "id": "trend-2",
-          "title": "Viral Beat",
-          "artist": "Demo",
-          "src": "assets/sample/t10.wav",
+          "id": "trending-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/trending.svg"
+        },
+        {
+          "id": "trending-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/trending.svg"
         }
       ]
@@ -123,17 +1803,353 @@
       "cover": "assets/covers/hardstyle.svg",
       "tracks": [
         {
-          "id": "hard-1",
-          "title": "Kickstorm",
-          "artist": "Demo",
-          "src": "assets/sample/t11.wav",
+          "id": "hardstyle-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/hardstyle.svg"
         },
         {
-          "id": "hard-2",
-          "title": "Bassquake",
-          "artist": "Demo",
-          "src": "assets/sample/t12.wav",
+          "id": "hardstyle-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/hardstyle.svg"
+        },
+        {
+          "id": "hardstyle-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/hardstyle.svg"
         }
       ]
@@ -145,17 +2161,353 @@
       "cover": "assets/covers/anime.svg",
       "tracks": [
         {
-          "id": "ani-1",
-          "title": "Shonen Fire",
-          "artist": "Demo",
-          "src": "assets/sample/t13.wav",
+          "id": "anime-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/anime.svg"
         },
         {
-          "id": "ani-2",
-          "title": "Neon Sakura",
-          "artist": "Demo",
-          "src": "assets/sample/t14.wav",
+          "id": "anime-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/anime.svg"
+        },
+        {
+          "id": "anime-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/anime.svg"
         }
       ]
@@ -167,17 +2519,353 @@
       "cover": "assets/covers/nordic.svg",
       "tracks": [
         {
-          "id": "nor-1",
-          "title": "Runesong",
-          "artist": "Demo",
-          "src": "assets/sample/t15.wav",
+          "id": "nordic-1",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/nordic.svg"
         },
         {
-          "id": "nor-2",
-          "title": "Skald's Tale",
-          "artist": "Demo",
-          "src": "assets/sample/t16.wav",
+          "id": "nordic-2",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-3",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-4",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-5",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-6",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-7",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-8",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-9",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-10",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-11",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-12",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-13",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-14",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-15",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-16",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-17",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-18",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-19",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-20",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-21",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-22",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-23",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-24",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-25",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-26",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-27",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-28",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-29",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-30",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-31",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-32",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-33",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-34",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-35",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-36",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-37",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-38",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-39",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-40",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-41",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-42",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-43",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-44",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-45",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-46",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-47",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-48",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-49",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
+          "cover": "assets/covers/nordic.svg"
+        },
+        {
+          "id": "nordic-50",
+          "title": "\u2014",
+          "artist": "\u2014",
+          "src": "",
           "cover": "assets/covers/nordic.svg"
         }
       ]
